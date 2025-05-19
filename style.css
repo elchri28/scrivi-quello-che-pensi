@@ -1,0 +1,29 @@
+body {
+  background-color: #272727;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  }
+
+.card {
+  width: 300px;
+  min-height: 150px;
+  background-color: #08529c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(212, 212, 212, 0.1);
+  padding: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+.editable {
+  border: 1px dashed #fff6f6;
+  padding: 10px;
+  min-height: 100px;
+  outline: none;
+}
